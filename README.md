@@ -3,7 +3,7 @@
 An end-to-end machine learning project that predicts the probability of a patient having heart disease. The project transforms raw clinical data through a production-grade automated pipeline and exposes the model via an interactive Streamlit web application.
 
 ## 🚀 Live Demo
-👉 **[Insert Your Streamlit Cloud Link Here]**
+👉 **[https://heart-disease-predictor-ykxjgdcrw8dz8r6fwmvh8t.streamlit.app/]**
 
 ---
 
@@ -36,7 +36,7 @@ To prevent data leakage and handle messy real-world data seamlessly, the project
 ---
 
 ## 📈 Model Performance
-* **Baseline Accuracy:** ~82% to 88%
+* **Baseline Accuracy:** ~75-80%
 * **Primary Metric Optimization:** High **Recall** on the positive class ($1$). In a medical context, missing a sick patient (False Negative) is significantly more dangerous than a False Positive. The model is specifically tuned to ensure high sensitivity/recall.
 
 ---
